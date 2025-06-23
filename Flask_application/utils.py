@@ -11,7 +11,7 @@ from tensorflow.keras.optimizers import SGD
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  #Suppress TensorFlow warnings 
 
 
-from tensorflow.kerad.models import load_model
+from tensorflow.keras.models import load_model
 
 def clean_up_sentence(sentence):
     lemmatizer = WordNetLemmatizer()
@@ -50,7 +50,8 @@ def predict_class(sentence):
 
 
 def get_response(intents_list):
-    intents_json= json.load('Model_training/chatbot_intents.json')
+    with open('Model_training/chatbot_intents.json', 'r') as f:
+        intents_json = json.load(f)
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
     

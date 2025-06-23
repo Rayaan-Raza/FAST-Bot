@@ -9,14 +9,14 @@ app = Flask(__name__,template_folder='templates')
 def index():
     return render_template('index.html')
 
-@app.route('/handel_message', method=['POST'])
-def handel_message():
+@app.route('/handle_message', methods=['POST'])
+def handle_message():
     message = request.json['message']
     intents_list = predict_class(message)
     response = get_response(intents_list)
     
     
-    return jsonify({'response:':response})
+    return jsonify({'response': response})
 
 
 if __name__ == '__main__':
