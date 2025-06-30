@@ -1,0 +1,2013 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Salam",
+        "Greetings",
+        "Yo",
+        "Howdy",
+        "What's up",
+        "Nice to see you",
+        "Good evening",
+        "Hola",
+        "Aloha",
+        "How are you doing?",
+        "Pleased to meet you",
+        "Lovely day, isn't it?",
+        "How's it going?",
+        "How do you do?",
+        "Hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What would you like to know about FAST?",
+        "Hey! I'm here to answer your questions."
+      ]
+    },
+    {
+      "tag": "fallback_response",
+      "patterns": [
+        "I don't understand",
+        "That didn't help",
+        "What are you saying?",
+        "Can you repeat that?",
+        "I’m confused",
+        "Huh?",
+        "What do you mean?",
+        "Could you explain?",
+        "I don't follow",
+        "Please clarify",
+        "That's unclear",
+        "Say again?",
+        "I'm not getting it",
+        "Run that by me again",
+        "What was that?",
+        "I'm lost",
+        "This isn't making sense",
+        "I need more information",
+        "Can you elaborate?",
+        "Help me understand"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite get that. Could you rephrase?",
+        "Hmm, I'm not sure about that. Try asking something related to FAST University.",
+        "I'm still learning! Can you ask that differently?"
+      ]
+    },
+    {
+      "tag": "campus_locations",
+      "patterns": [
+        "Where are FAST campuses located?",
+        "What cities have FAST University?",
+        "FAST campus locations",
+        "Where can I study at FAST?",
+        "Which cities have a FAST campus?",
+        "List of FAST University branches",
+        "In what areas can I find FAST?",
+        "Tell me about FAST's geographical presence.",
+        "Are there multiple FAST campuses?",
+        "Where is FAST established?",
+        "What are the locations of FAST University?",
+        "Which places have a FAST campus?",
+        "Can you name the cities with FAST University?",
+        "Details about FAST campus addresses",
+        "Where can I attend FAST?",
+        "Locations for FAST NUCES",
+        "Campuses of FAST University",
+        "Is FAST only in one city?",
+        "Where is the main FAST campus?",
+        "Breakdown of FAST campus locations"
+      ],
+      "responses": [
+        "FAST University has campuses in Islamabad, Lahore, Karachi, Peshawar, and Faisalabad."
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "How can I contact FAST?",
+        "What's the FAST helpline?",
+        "Contact details for FAST",
+        "How do I get in touch with FAST University?",
+        "Phone number for FAST",
+        "Email address for FAST admissions",
+        "General inquiry contact for FAST",
+        "How to reach FAST support?",
+        "FAST customer service number",
+        "Website for FAST University",
+        "Is there a contact form for FAST?",
+        "Who can I talk to at FAST?",
+        "FAST UAN number",
+        "How to get in touch with a FAST representative?",
+        "Information on contacting FAST",
+        "FAST University contact info",
+        "What's the best way to contact FAST?",
+        "Do they have a student support number?",
+        "Find FAST's contact details",
+        "Get in touch with FAST"
+      ],
+      "responses": [
+        "You can visit the official website at www.nu.edu.pk or call your nearest campus. Each campus has its own contact details listed online."
+      ]
+    },
+    {
+      "tag": "documents_required_for_admission",
+      "patterns": [
+        "What documents are required for admission?",
+        "What do I need to submit with the application?",
+        "Documents needed for applying",
+        "Which papers are needed for FAST admission?",
+        "List of documents for FAST University admission",
+        "What records do I need for FAST application?",
+        "Required paperwork for FAST entry",
+        "What should I bring for FAST admission?",
+        "Documents checklist for FAST",
+        "What proof do I need for admission to FAST?",
+        "Items to submit for FAST application",
+        "What are the admission prerequisites documents for FAST?",
+        "Do I need my transcripts for FAST?",
+        "CNIC requirement for FAST admission",
+        "What forms are needed for FAST?",
+        "Application document list for FAST",
+        "What is the documentation process for FAST?",
+        "Essential documents for FAST enrollment",
+        "What supporting documents are required for FAST?",
+        "Admission document requirements for FAST"
+      ],
+      "responses": [
+        "You typically need your academic transcripts, CNIC or B form, recent photographs, and admission test score (if applicable). The complete list is provided during the application process."
+      ]
+    },
+    {
+      "tag": "can_international_students_apply",
+      "patterns": [
+        "Can international students apply?",
+        "Is FAST open to foreign applicants?",
+        "Does FAST accept overseas students?",
+        "Are non Pakistani citizens eligible for admission?",
+        "Do international students have a separate admission process?",
+        "What are the requirements for foreign students?",
+        "Can students from other countries study at FAST?",
+        "Is there a quota for international students?",
+        "What is the procedure for international applications?",
+        "Are international qualifications recognized?",
+        "Do you admit students from outside Pakistan?",
+        "Eligibility for international candidates?",
+        "Is FAST friendly to international applicants?",
+        "Can a student with a foreign passport apply?",
+        "What about admissions for global students?",
+        "Are there special provisions for international admissions?",
+        "Do I need an equivalence certificate if I'm an international student?",
+        "Can a non resident apply to FAST?",
+        "Is it possible for expats to study at FAST?",
+        "What's the process for international student enrollment?"
+      ],
+      "responses": [
+        "Yes, international students can apply. They must meet the eligibility criteria and provide equivalence certificates issued by IBCC or relevant bodies."
+      ]
+    },
+    {
+      "tag": "university_ranking",
+      "patterns": [
+        "What is FAST's ranking?",
+        "Is FAST a top ranked university?",
+        "How does FAST rank in Pakistan?",
+        "FAST NUCES reputation",
+        "Where does FAST stand among universities?",
+        "What is the national ranking of FAST?",
+        "Is FAST highly rated?",
+        "How good is FAST NUCES?",
+        "What are the recent rankings for FAST?",
+        "Is FAST a prestigious university?",
+        "How is FAST perceived in the academic community?",
+        "What's the reputation of FAST University?",
+        "Can you tell me about FAST's position in university rankings?",
+        "Is FAST recognized as a leading institution?",
+        "What is the standing of FAST in computer science programs?",
+        "How does FAST compare to other universities?",
+        "Is FAST considered a top engineering university?",
+        "What are the HEC rankings for FAST?",
+        "Tell me about FAST's national standing.",
+        "What's the academic prestige of FAST?"
+      ],
+      "responses": [
+        "FAST NUCES is considered one of Pakistan's top universities for Computer Science and Engineering. It consistently ranks high in national and HEC rankings."
+      ]
+    },
+    {
+      "tag": "medium_of_instruction",
+      "patterns": [
+        "What is the medium of instruction at FAST?",
+        "Are classes in English or Urdu?",
+        "Language used for teaching at FAST?",
+        "Do you teach in English?",
+        "Is Urdu used for lectures at FAST?",
+        "What's the primary language of teaching?",
+        "Are all courses taught in English?",
+        "Is language a barrier for non Urdu speakers?",
+        "What language are the exams in?",
+        "Is there an option for Urdu instruction?",
+        "What language are the lectures conducted in?",
+        "Is English proficiency required?",
+        "Do I need to know Urdu to study at FAST?",
+        "What is the language policy for academics?",
+        "Are the course materials in English?",
+        "Is the instruction bilingual?",
+        "What's the official teaching language?",
+        "Are there any classes in regional languages?",
+        "Is the curriculum delivered in English?",
+        "Language of education at FAST?"
+      ],
+      "responses": [
+        "The medium of instruction at FAST is English for all degree programs."
+      ]
+    },
+    {
+      "tag": "semester_system",
+      "patterns": [
+        "Is FAST on a semester system?",
+        "How is the academic year structured at FAST?",
+        "Does FAST follow the semester system?",
+        "How many semesters are there?",
+        "What is the academic calendar like at FAST?",
+        "Is it a semester based university?",
+        "How many terms are in a FAST academic year?",
+        "Do you have trimesters or semesters?",
+        "What's the academic schedule at FAST?",
+        "How is the year divided academically?",
+        "Does FAST operate on a semester basis?",
+        "What are the different academic periods at FAST?",
+        "Tell me about the academic structure.",
+        "Is it an annual or semester system?",
+        "How many academic sessions per year?",
+        "Details about FAST's academic terms.",
+        "When do semesters start and end?",
+        "Is the academic year broken into semesters?",
+        "What is the typical length of a semester at FAST?",
+        "Does FAST have a fixed semester system?"
+      ],
+      "responses": [
+        "Yes, FAST follows a semester system. There are two main semesters: Spring and Fall."
+      ]
+    },
+    {
+      "tag": "attendance_policy",
+      "patterns": [
+        "What is the attendance policy?",
+        "Do I need to attend all classes?",
+        "How much attendance is required at FAST?",
+        "Can I miss classes?",
+        "What happens if I don't meet attendance requirements?",
+        "Is attendance compulsory at FAST?",
+        "What's the minimum attendance percentage?",
+        "Are there attendance exemptions?",
+        "How is attendance recorded?",
+        "What if I have low attendance?",
+        "Are there penalties for missing classes?",
+        "What's the attendance rule for exams?",
+        "Do tutorials count towards attendance?",
+        "Is attendance monitored closely?",
+        "What is the policy for medical leave and attendance?",
+        "How does attendance affect my grades?",
+        "What's the threshold for being barred from exams?",
+        "Is there a grace period for attendance?",
+        "Can I make up for missed classes?",
+        "What are the attendance regulations?"
+      ],
+      "responses": [
+        "Students must maintain at least 80% attendance in each course. Falling below may result in being barred from final exams."
+      ]
+    },
+    {
+      "tag": "grading_policy",
+      "patterns": [
+        "What is the grading system at FAST?",
+        "How are students graded?",
+        "Tell me about the CGPA system at FAST.",
+        "What is the passing grade?",
+        "How does GPA work at FAST?",
+        "What's the minimum GPA to pass?",
+        "Are there different grading scales?",
+        "How are final grades calculated?",
+        "What is a good CGPA at FAST?",
+        "How do I achieve a good GPA?",
+        "What are the grade equivalents for letters?",
+        "Is there a curve in grading?",
+        "What's the promotion policy based on grades?",
+        "How does the CGPA impact my degree?",
+        "What's the grading distribution?",
+        "Can I see the grading criteria?",
+        "What's the policy for re evaluation of grades?",
+        "How are assignments and exams weighted in grading?",
+        "What's the lowest acceptable grade?",
+        "Explain the grading structure at FAST."
+      ],
+      "responses": [
+        "FAST uses a GPA/CGPA based grading system. The passing grade is typically a D (equivalent to 1.0 GPA), but program requirements may vary."
+      ]
+    },
+    {
+      "tag": "student_societies",
+      "patterns": [
+        "What societies are there at FAST?",
+        "Are there any student clubs?",
+        "Can I join a society at FAST?",
+        "Student life at FAST",
+        "What extracurricular activities are available?",
+        "Are there any student organizations at FAST?",
+        "How can I get involved in campus life?",
+        "List of student bodies at FAST",
+        "Are there technical societies at FAST?",
+        "What cultural clubs does FAST offer?",
+        "Can I start my own society at FAST?",
+        "What kind of student activities are there?",
+        "Do societies host events?",
+        "How do I join a student club?",
+        "Are there sports clubs besides societies?",
+        "What's the social scene like at FAST?",
+        "Are there volunteer opportunities through societies?",
+        "What are the popular societies at FAST?",
+        "How can I participate in non academic activities?",
+        "Tell me about the student community and clubs."
+      ],
+      "responses": [
+        "FAST hosts a variety of student societies, including IEEE, ACM, FAST Drama Society, Literary Society, Sports Society, and many others depending on your campus."
+      ]
+    },
+    {
+      "tag": "sports_facilities",
+      "patterns": [
+        "Does FAST have sports facilities?",
+        "Can I play sports at FAST?",
+        "What sports are available at FAST?",
+        "Are there any tournaments or games?",
+        "Does FAST have a gym?",
+        "What kind of athletic facilities are there?",
+        "Can students use sports grounds?",
+        "Are there indoor sports facilities?",
+        "What sports teams does FAST have?",
+        "Is there a swimming pool at FAST?",
+        "Are sports part of student life?",
+        "Can I practice sports on campus?",
+        "What are the sports events at FAST?",
+        "Do they have facilities for cricket or football?",
+        "Is there a basketball court at FAST?",
+        "What kind of fitness amenities are available?",
+        "Are sports facilities open to all students?",
+        "Do students get coaching for sports?",
+        "What are the sports provisions at FAST?",
+        "Tell me about the recreational sports options."
+      ],
+      "responses": [
+        "Yes, FAST encourages sports and has facilities like cricket grounds, football fields, basketball courts, and table tennis depending on the campus. There are also annual sports events and tournaments."
+      ]
+    },
+    {
+      "tag": "program_duration",
+      "patterns": [
+        "How long is the CS degree?",
+        "What is the duration of the business program?",
+        "How many years to complete a degree at FAST?",
+        "Program duration?",
+        "How many semesters are in a bachelor's degree at FAST?",
+        "What's the typical length of undergraduate programs?",
+        "How long does it take to graduate from FAST?",
+        "What's the standard duration for an engineering degree?",
+        "How many years is a BS degree at FAST?",
+        "What is the minimum time to complete a degree?",
+        "Can I complete my degree faster?",
+        "What's the maximum duration for a program?",
+        "How many credits are required for graduation?",
+        "Is the duration the same for all undergraduate programs?",
+        "What's the typical number of semesters?",
+        "How many academic years does a degree at FAST cover?",
+        "What's the structure of the degree timeline?",
+        "Is there a part time option for degree duration?",
+        "How many years are most degree programs designed for?",
+        "What is the length of study at FAST?"
+      ],
+      "responses": [
+        "Most undergraduate programs at FAST are 4 years long, divided over 8 regular semesters."
+      ]
+    },
+    {
+      "tag": "next_steps_after_admission",
+      "patterns": [
+        "What happens after I get selected?",
+        "What are the next steps after admission?",
+        "I've been admitted, now what?",
+        "What do I do after receiving an offer letter?",
+        "What's the process after admission acceptance?",
+        "What are the post admission procedures at FAST?",
+        "I got in, what's next for enrollment?",
+        "What steps follow the admission decision?",
+        "What should I do once I'm accepted?",
+        "Is there a post admission checklist?",
+        "What are the immediate actions after getting admitted?",
+        "How do I confirm my admission?",
+        "What's the enrollment process after selection?",
+        "What documents do I need to submit after admission?",
+        "When do I pay fees after admission?",
+        "How do I register for courses after getting admitted?",
+        "What's the final step to becoming a FAST student?",
+        "Do I receive a student ID right away?",
+        "What's the orientation process after admission?",
+        "What are the formalities after successful admission?"
+      ],
+      "responses": [
+        "Once you're selected, complete the fee submission and document verification. You’ll then receive your student ID and semester registration details."
+      ]
+    },
+    {
+      "tag": "open_house_info",
+      "patterns": [
+        "Is there an open house at FAST?",
+        "When is the next information session?",
+        "Can I visit the campus before applying?",
+        "FAST open day schedule?",
+        "Does FAST have campus tours?",
+        "When can I attend a FAST information event?",
+        "Are there any open days for prospective students?",
+        "How can I get a campus visit appointment?",
+        "Does FAST hold orientation programs for new students?",
+        "Where can I find details about FAST open events?",
+        "When is the next university fair or expo for FAST?",
+        "Can I explore the campus before admission?",
+        "Are there virtual open houses for FAST?",
+        "What are the dates for FAST's open days?",
+        "How to attend a FAST information session?",
+        "Is it possible to tour the FAST campus?",
+        "Do they host prospective student events?",
+        "Where can I find the open house calendar?",
+        "Are there any webinars about FAST programs?",
+        "Can I meet faculty before applying at an open house?"
+      ],
+      "responses": [
+        "FAST occasionally holds open houses and orientation sessions. Keep an eye on the university website or social media pages for announcements."
+      ]
+    },
+    {
+      "tag": "can_i_change_my_program_after_admission",
+      "patterns": [
+        "Can I change my program after getting admitted?",
+        "Is it possible to switch degrees?",
+        "I want to change my major",
+        "How to transfer from CS to AI?",
+        "Can I change my specialization after admission?",
+        "What's the process to switch programs at FAST?",
+        "Is it easy to change my course of study?",
+        "What are the rules for changing departments after admission?",
+        "Can I apply for a different program after being accepted?",
+        "Is there a deadline to change my chosen degree?",
+        "What are the conditions for program transfer?",
+        "Can I switch from a bachelor's to another bachelor's program?",
+        "What if I want to pursue a different field after admission?",
+        "Is program change allowed in the first semester?",
+        "Do I need to re apply if I change my program?",
+        "Are there any fees for changing programs?",
+        "What happens to my credits if I switch majors?",
+        "Can I transfer to a different campus for a different program?",
+        "Is inter departmental transfer possible at FAST?",
+        "What's the procedure for internal program transfer?"
+      ],
+      "responses": [
+        "Program changes may be allowed subject to approval, academic performance, and seat availability. Contact your campus administration for the process and deadlines."
+      ]
+    },
+    {
+      "tag": "how_to_freeze_semester",
+      "patterns": [
+        "How do I freeze a semester?",
+        "Can I take a break from studies?",
+        "What’s the process to freeze a semester at FAST?",
+        "I want to pause my studies",
+        "Can I defer my studies at FAST?",
+        "What are the rules for taking a leave of absence?",
+        "How do I suspend my enrollment?",
+        "Is it possible to temporarily withdraw from FAST?",
+        "What are the implications of freezing a semester?",
+        "Can I rejoin after freezing my studies?",
+        "What's the procedure for academic leave?",
+        "How many semesters can I freeze?",
+        "Are there any charges for freezing a semester?",
+        "What are the deadlines for applying for a freeze?",
+        "Can I freeze my first semester?",
+        "Is freezing a semester an option if I'm struggling?",
+        "What happens to my tuition fee if I freeze?",
+        "How do I apply for a study break?",
+        "What's the policy on voluntary suspension of studies?",
+        "Do I need a valid reason to freeze a semester?"
+      ],
+      "responses": [
+        "Yes, you can freeze a semester by applying through your campus administration office. There are deadlines and conditions, so make sure to apply before the semester starts."
+      ]
+    },
+    {
+      "tag": "wifi_access_on_campus",
+      "patterns": [
+        "Does FAST have WiFi?",
+        "How do I connect to campus WiFi?",
+        "WiFi not working on campus",
+        "FAST WiFi credentials",
+        "Is internet available on campus?",
+        "How to access the campus network?",
+        "What are the WiFi login details for FAST?",
+        "Is there free WiFi for students?",
+        "How reliable is the campus internet?",
+        "Can I use my own devices on FAST WiFi?",
+        "What's the policy for using campus internet?",
+        "Where do I get help with WiFi issues?",
+        "Is the WiFi fast on campus?",
+        "Do they provide internet access in dorms?",
+        "How to set up WiFi on my laptop at FAST?",
+        "What are the guidelines for WiFi usage?",
+        "Is the entire campus covered by WiFi?",
+        "Can guests access the FAST WiFi?",
+        "What kind of internet speed does FAST offer?",
+        "Troubleshooting campus WiFi connection."
+      ],
+      "responses": [
+        "Yes, campus wide WiFi is available. You can get login credentials from the IT department. Make sure to follow the acceptable use policy."
+      ]
+    },
+    {
+      "tag": "career_support_services",
+      "patterns": [
+        "Does FAST help with job placements?",
+        "Are there career services at FAST?",
+        "Can FAST help me get an internship?",
+        "Job support at FAST",
+        "Does FAST have a career counseling center?",
+        "How does FAST assist with employment after graduation?",
+        "Are there resources for finding jobs and internships?",
+        "Does FAST connect students with companies?",
+        "What kind of career guidance does FAST provide?",
+        "Do they host job fairs?",
+        "Can I get help with my resume at FAST?",
+        "Are there workshops for interview preparation?",
+        "Does FAST have an alumni network for job seeking?",
+        "What's the success rate for FAST graduates finding jobs?",
+        "Do they offer mock interviews?",
+        "Is there a dedicated department for career development?",
+        "How do I find internship opportunities through FAST?",
+        "What kind of industry connections does FAST have?",
+        "Can FAST help me explore career options?",
+        "Are there any career development programs?"
+      ],
+      "responses": [
+        "Yes, FAST has career services and placement cells that regularly share internship and job opportunities with students via email and job portals."
+      ]
+    },
+    {
+      "tag": "cafeteria_availability",
+      "patterns": [
+        "Is there a cafeteria at FAST?",
+        "Where can I eat at FAST?",
+        "Does FAST have food options on campus?",
+        "What kind of food is available?",
+        "Are there multiple cafeterias?",
+        "Is there a university mess at FAST?",
+        "What are the dining options on campus?",
+        "Can I buy snacks at FAST?",
+        "Are there healthy food choices in the cafeteria?",
+        "What are the cafeteria timings?",
+        "Do they serve lunch and dinner?",
+        "Is the food affordable at the cafeteria?",
+        "Are outside food vendors allowed on campus?",
+        "What's the quality of food like at FAST's cafeteria?",
+        "Is there a place to sit and eat on campus?",
+        "Do they have a tuck shop or convenience store?",
+        "What types of cuisines are available?",
+        "Can I get tea or coffee on campus?",
+        "Are there any cafes at FAST?",
+        "Is there a student canteen?"
+      ],
+      "responses": [
+        "Yes, all FAST campuses have cafeterias offering snacks, meals, and beverages. Options and quality may vary by campus."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Talk to you later",
+        "Allah Hafiz",
+        "Farewell",
+        "I'm leaving",
+        "Gotta go",
+        "Bye for now",
+        "Have a good one",
+        "Catch you later",
+        "Until next time",
+        "Cheerio",
+        "Adios",
+        "Later",
+        "Peace out",
+        "Signing off",
+        "That's all for now",
+        "Good day",
+        "See ya"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return if you have more questions.",
+        "See you again soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Shukriya",
+        "Thanks a lot",
+        "Thanks for the help",
+        "Much appreciated",
+        "I appreciate your help",
+        "Thank you so much",
+        "That's helpful",
+        "Cheers",
+        "Many thanks",
+        "I'm grateful",
+        "Thanks for the info",
+        "That helped a lot",
+        "I appreciate it",
+        "You've been helpful",
+        "Thanks a bunch",
+        "Grateful for your assistance",
+        "Thank you for clarifying",
+        "Awesome, thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "name_query",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "Tell me your name",
+        "What do you call yourself?",
+        "Who am I talking to?",
+        "What's your designation?",
+        "Are you an AI?",
+        "What is your identity?",
+        "Do you have a name?",
+        "Who created you?",
+        "What kind of bot are you?",
+        "Are you human or AI?",
+        "What should I call you?",
+        "Your name please?",
+        "What's your official name?",
+        "Can I call you something?",
+        "Do you have a personal name?",
+        "What is your title?",
+        "How should I address you?",
+        "Are you a virtual assistant?"
+      ],
+      "responses": [
+        "I'm FASTBot — your university assistant!",
+        "I'm your chatbot helper for all FAST University FAQs."
+      ]
+    },
+{
+  "tag": "bot_purpose",
+  "patterns": [
+    "What do you do?",
+    "What can you help with?",
+    "How can you help me?"
+  ],
+  "responses": [
+    "I can answer questions about admissions, programs, deadlines, and more at FAST.",
+    "Ask me anything related to FAST University — I'm here to help!"
+  ]
+},
+{
+  "tag": "when_do_admissions_open",
+  "patterns": [
+    "When do admissions open?",
+    "What month do admissions start?",
+    "When can I apply?",
+    "When is the admission period?",
+    "When does the application process begin?",
+    "What’s the date for admissions opening?",
+    "Can you tell me when admissions start?",
+    "When will the university start accepting applications?",
+    "Admissions open in which month?",
+    "When is the enrollment window?",
+    "When does FAST start accepting applications?",
+    "What are the admission cycle dates?",
+    "When can I submit my application for FAST?",
+    "What's the typical admission timeline?",
+    "When do new admissions commence?",
+    "Is there a specific month for FAST admissions?",
+    "What is the application opening date?",
+    "When does the application portal go live?",
+    "When is the application period for FAST?",
+    "Tell me about the admission opening schedule."
+  ],
+  "responses": [
+    "Admissions open in  July  every year"
+  ]
+},
+{
+  "tag": "admission_eligibility_criteria",
+  "patterns": [
+    "What is the minimum eligibility for admission?",
+    "What are the basic requirements for admission?",
+    "What qualifications do I need to apply?",
+    "What is the eligibility criteria for FAST admission?",
+    "What marks are required for admission into FAST?",
+    "What is the minimum percentage for admission?",
+    "How much do I need in intermediate to get into FAST?",
+    "What are the academic requirements for applying to FAST?",
+    "Tell me the minimum requirement for admission",
+    "What are the prerequisites for applying to FAST?",
+    "What's the required academic background for FAST?",
+    "Do I need specific grades to apply to FAST?",
+    "What are the FSc/A Level requirements for FAST?",
+    "Is there a minimum GPA for admission?",
+    "What are the entry criteria for undergraduate programs?",
+    "What score do I need in my previous degree to apply?",
+    "Can I get in with less than 60% in intermediate?",
+    "What are the essential qualifications for FAST admission?",
+    "Tell me about the academic cut off for FAST.",
+    "What academic standing is needed for admission?"
+  ],
+  "responses": [
+    "Students must have a minimum of  60% in Intermediate or equivalent ."
+  ]
+},
+{
+  "tag": "admission_application_process",
+  "patterns": [
+    "How can I apply for admission?",
+    "What is the admission application process?",
+    "Where do I apply for admission to FAST?",
+    "How do I submit my admission form?",
+    "Can I apply for FAST admission online?",
+    "How to apply for FAST University?",
+    "What is the process to get admitted to FAST?",
+    "Where can I find the admission application?",
+    "Is the admission process online?",
+    "Tell me how to apply for a degree program at FAST",
+    "What are the steps to apply to FAST?",
+    "Is there an online application portal for FAST?",
+    "How do I fill out the FAST admission form?",
+    "What's the procedure for submitting an application?",
+    "Where can I access the online application for FAST?",
+    "Do I need to visit the campus to apply?",
+    "What are the stages of the FAST admission process?",
+    "How to start my application for FAST?",
+    "What's the first step in applying to FAST?",
+    "Can I apply through a physical form?"
+  ],
+  "responses": [
+    "Applications can be submitted online through the university portal."
+  ]
+},
+{
+  "tag": "undergraduate_programs_info",
+  "patterns": [
+    "What undergraduate programs does FAST offer?",
+    "Which bachelor's programs are available at FAST?",
+    "Tell me the undergraduate degrees offered at FAST.",
+    "What BS programs are offered by FAST?",
+    "List all the bachelor's programs at FAST.",
+    "What programs can I apply to as an undergrad?",
+    "What undergrad degrees are available at FAST?",
+    "Can you tell me the undergraduate options at FAST?",
+    "Which fields does FAST offer for undergraduates?",
+    "What are the undergraduate study areas at FAST?",
+    "What bachelor's degrees are provided by FAST?",
+    "Do you have a list of all undergraduate courses?",
+    "What are the entry level programs at FAST?",
+    "Which four year degrees are offered?",
+    "What BBA programs does FAST offer?",
+    "Does FAST have engineering undergraduate programs?",
+    "Can I study computer science as an undergrad at FAST?",
+    "What business degrees are available at FAST for bachelors?",
+    "What are the science undergraduate programs?",
+    "Tell me about the available BS programs."
+  ],
+  "responses": [
+    "FAST offers the following undergraduate programs: Bachelor of Business Administration (BBA), BS in Accounting and Finance, BS in Artificial Intelligence, BS in Business Analytics, BS in Computer Engineering, BS in Computer Science, BS in Cyber Security, BS in Data Science, BS in Electrical Engineering, BS in Financial Technology, BS in Software Engineering"
+  ]
+},
+{
+  "tag": "graduate_programs_info",
+  "patterns": [
+    "What graduate programs does FAST offer?",
+    "Which master's programs are available at FAST?",
+    "Tell me the graduate degrees offered at FAST.",
+    "What postgraduate programs are offered by FAST?",
+    "List all the graduate programs at FAST.",
+    "What programs can I apply to for a master's?",
+    "What graduate degrees are available at FAST?",
+    "Can you tell me the graduate options at FAST?",
+    "Which fields does FAST offer for graduate studies?",
+    "What are the postgraduate study areas at FAST?",
+    "What are the MS programs at FAST?",
+    "Do you offer PhD programs?",
+    "What advanced degrees are available at FAST?",
+    "Which master's courses are provided by FAST?",
+    "Are there any doctoral programs?",
+    "What are the research degrees offered?",
+    "Can I pursue an MBA at FAST?",
+    "What engineering programs are available at the graduate level?",
+    "What computer science master's degrees are offered?",
+    "Tell me about the postgraduate study options."
+  ],
+  "responses": [
+    "FAST offers postgraduate programs including Master of Business Administration (MBA), MS Artificial Intelligence, MS Business Analytics, MS Civil Engineering, MS Computer Science, MS Cyber Security, MS Data Science, MS Electrical Engineering, and MS Software Engineering."
+  ]
+},
+{
+  "tag": "postgraduate_programs_info",
+  "patterns": [
+    "What postgraduate programs does FAST offer?",
+    "Which post graduate degrees are available at FAST?",
+    "Tell me about PhD programs at FAST.",
+    "What doctoral programs are offered at FAST?",
+    "Does FAST offer any postgraduate degrees?",
+    "Can I do a PhD at FAST?",
+    "What are the available postgrad programs at FAST?",
+    "Which fields does FAST offer PhD in?",
+    "Are there postgraduate options at FAST?",
+    "What higher education programs does FAST have?",
+    "What are the PhD specializations at FAST?",
+    "Is there a list of all doctoral programs?",
+    "Does FAST offer research degrees?",
+    "What are the advanced study options beyond master's?",
+    "Can I pursue a doctorate at FAST?",
+    "What are the PhD admissions requirements?",
+    "Does FAST offer MPhil programs?",
+    "What are the graduate research opportunities?",
+    "Which fields can I pursue a doctorate in at FAST?",
+    "Tell me about the highest degree programs offered."
+  ],
+  "responses": [
+    "FAST offers PhD programs in  Computer Science, Electrical Engineering, Management Sciences, and Software Engineering . Some campuses may also offer PhD in Civil Engineering and Mathematics."
+  ]
+},
+{
+  "tag": "graduation_requirements",
+  "patterns": [
+    "What is the degree graduation requirement?",
+    "What are the graduation requirements at FAST?",
+    "How can I graduate from FAST?",
+    "What do I need to graduate from my degree program?",
+    "What GPA is needed to graduate from FAST?",
+    "How many credit hours are required to graduate?",
+    "Tell me the requirements for completing a degree at FAST.",
+    "Is there a minimum CGPA for graduation?",
+    "What’s needed to finish a bachelor’s degree at FAST?",
+    "What are the degree completion rules at FAST?",
+    "What is the credit hour limit for graduation?",
+    "Do I need to pass all courses to graduate?",
+    "What are the criteria for degree completion?",
+    "Is there a final project or thesis requirement for graduation?",
+    "How is my eligibility for graduation determined?",
+    "What are the minimum academic standards for graduation?",
+    "What's the required CGPA for different programs to graduate?",
+    "Are there any other conditions for degree award?",
+    "How many courses do I need to complete to graduate?",
+    "What is the graduation policy at FAST?"
+  ],
+  "responses": [
+    "To graduate, students must achieve a minimum  CGPA of 2.0  and complete the required number of credit hours specific to their program (e.g., 133 for BS Computer Science, 134 for BS Accounting & Finance, 138 for BS Civil Engineering)."
+  ]
+},
+{
+  "tag": "fee_structure_info",
+  "patterns": [
+    "What is the fee structure?",
+    "Tell me about the fee structure at FAST.",
+    "How are fees charged at FAST?",
+    "Can you explain the FAST university fee breakdown?",
+    "Is the fee charged monthly or per semester?",
+    "How often do I need to pay the fee at FAST?",
+    "What is the semester fee policy at FAST?",
+    "How does the fee system work at FAST?",
+    "When is the fee due for each semester?",
+    "Do I pay fees before course registration?",
+    "What is the per credit hour fee?",
+    "Are there any additional fees apart from tuition?",
+    "What is the admission fee for FAST?",
+    "Is the security deposit part of the fee structure?",
+    "How much is the student activities fund fee?",
+    "What are the miscellaneous charges at FAST?",
+    "Is the fee structure subject to change?",
+    "What's the total cost per semester?",
+    "Can I get a breakdown of all fees?",
+    "When do I receive the fee invoice?"
+  ],
+  "responses": [
+    "The tuition fee at FAST is  Rs.11,000 per credit hour  for all campuses and programs (effective Fall 2025 semester). The fee is charged on a semester basis and becomes due two weeks before the start of a semester, typically at the time of course registration. An admission fee (Rs. 30,000) and a refundable security deposit (Rs. 20,000) are also payable at the time of admission."
+  ]
+},
+{
+  "tag": "fee_payment_mode",
+  "patterns": [
+    "What is the fee mode of payment?",
+    "How do I pay my fees at FAST?",
+    "Where can I pay my university fees?",
+    "What is the process to pay tuition at FAST?",
+    "How are fees submitted at FAST?",
+    "How do students pay their fee?",
+    "Is there a challan for paying fees at FAST?",
+    "Do I need to go to a bank to pay fees?",
+    "Where do I get the fee challan?",
+    "What are the official payment methods for FAST fees?",
+    "Can I pay FAST fees online?",
+    "Are there any digital payment options for fees?",
+    "Do you accept JazzCash or EasyPaisa for fees?",
+    "Which banks are partnered for fee collection?",
+    "What is the Kuickpay gateway for fee payment?",
+    "Can I pay fees via mobile banking?",
+    "Where can I find my fee voucher?",
+    "What is the process for online fee transfer?",
+    "Do I get a receipt after paying fees?",
+    "What are the instructions for fee payment?"
+  ],
+  "responses": [
+    "Fees are paid in the bank through a bank challan available in the Accounts Office or on the Flex portal. You can also pay via bank account using the Kuickpay payment gateway (available through internet banking, mobile banking, or ATM), which supports various banks and mobile wallets like EasyPaisa and JazzCash."
+  ]
+},
+{
+  "tag": "general_fee_refund_policy",
+  "patterns": [
+    "What is the fee refund policy?",
+    "Can I get a refund after paying the fee?",
+    "Is the fee refundable at FAST?",
+    "Does FAST return the tuition fee if I withdraw?",
+    "Are there any refundable charges at FAST?",
+    "Tell me about the fee refund rules at FAST.",
+    "Do I get any money back after dropping out?",
+    "Is my admission fee refundable?",
+    "Which fees are non refundable at FAST?",
+    "Does FAST allow fee refunds?",
+    "What happens to my tuition if I leave the university?",
+    "Is the security deposit fully refundable?",
+    "What's the deadline for a fee refund request?",
+    "How much of the fee can I get back if I withdraw early?",
+    "What is the HEC refund policy applied at FAST?",
+    "Are there different refund policies for different fees?",
+    "When will I receive my refund?",
+    "What are the conditions for a fee refund?",
+    "Is the application processing fee refundable?",
+    "What if I withdraw after classes start, can I get a refund?"
+  ],
+  "responses": [
+    "The admission fee is non refundable. The security deposit is refundable at the time of degree completion or closing of admission. Tuition fee refunds are processed according to HEC guidelines. As per recent guidelines (effective from December 20, 2024), you may receive a 100% refund up to the 10th day of classes, 80% up to the 15th day, 60% up to the 20th day, 50% up to the 30th day, and no refund thereafter."
+  ]
+},
+{
+  "tag": "financial_assistance_info",
+  "patterns": [
+    "Does FAST offer financial help?",
+    "Can I get money for tuition at FAST?",
+    "Is there any financial aid available?",
+    "Do they support students who can't afford fees?",
+    "Are there programs for financial support?",
+    "Can students get help with their university costs?",
+    "Does FAST provide any monetary assistance?",
+    "Are there loans or grants for students?",
+    "What kind of financial help does the university offer?",
+    "Is it possible to get help with my tuition fee?",
+    "Do they have a scholarship for those in need?",
+    "What options are there for financial support for students?",
+    "Does the university offer any fee reductions?",
+    "Can I get assistance if I'm struggling with fees?",
+    "What kind of financial relief is available?",
+    "Is there a fund to help students with expenses?",
+    "Do they have a program for low income students?",
+    "What support does FAST give to financially challenged students?",
+    "Are there ways to ease the financial burden of studying?",
+    "Tell me about the financial help for students."
+  ],
+  "responses": [
+    "FAST, being a non profit organization, charges subsidized fees from all its students. Realizing that even the subsidized fee may not be affordable for some students, FAST arranges  need based financial assistance in the form of interest free loans . This assistance is subject to renewal each semester based on academic performance and financial need. It covers tuition fees only and is discontinued if the student's CGPA falls below 2.00 for undergraduate programs or 2.5 for graduate programs."
+  ]
+},
+{
+  "tag": "financial_assistance_application",
+  "patterns": [
+    "How do I ask for financial help?",
+    "What's the way to apply for financial aid?",
+    "How do I get the form for financial assistance?",
+    "Where can I find the application for financial support?",
+    "Can I apply for financial aid after I'm accepted?",
+    "When and how should I apply for financial help?",
+    "What's the process if I want to request financial support?",
+    "How do I fill out the fee assistance application?",
+    "Is there a specific form to ask for financial aid?",
+    "Tell me the steps to apply for money help at the university.",
+    "What do I need to do to apply for financial assistance?",
+    "How do I submit my financial aid request?",
+    "Is there an online application for financial help?",
+    "What documents are needed for financial aid application?",
+    "When is the deadline to apply for financial support?",
+    "Who do I contact to apply for financial assistance?",
+    "Can current students apply for financial aid?",
+    "What's the procedure for getting a tuition loan?",
+    "Where can I get information about applying for aid?",
+    "How do I formally request financial help from FAST?"
+  ],
+  "responses": [
+    "All admitted students who are in real need of financial assistance should apply on the prescribed Financial Aid form. A notice to this effect will be posted on the notice board. The application process is generally self guided through an online system like FAST (Financial Aid for School Tuition), which helps in assessing financial need confidentially. You may need to provide tax information and other financial documents."
+  ]
+},
+{
+  "tag": "merit_scholarship_info",
+  "patterns": [
+    "Are there scholarships for good students?",
+    "Does FAST give money to students with high grades?",
+    "Can I get a scholarship for being a top performer?",
+    "Is there a scholarship for students who excel academically?",
+    "Do they offer any scholarships based on merit?",
+    "What kind of scholarships are available for high achievers?",
+    "Can top students get free tuition?",
+    "Is there financial reward for excellent academic results?",
+    "Do you offer scholarships for students with good marks?",
+    "What are the merit based financial incentives at FAST?",
+    "Are there scholarships for students who perform well in exams?",
+    "Does FAST recognize academic excellence with scholarships?",
+    "What benefits do high ranking students receive?",
+    "Can I get a scholarship if I'm at the top of my class?",
+    "Is there a special program for students with high merit?",
+    "What's the scholarship for being a top position holder?",
+    "Do they offer any fee waivers for academic achievements?",
+    "How can I qualify for a merit scholarship?",
+    "What kind of recognition do brilliant students get?",
+    "Tell me about the scholarships for academic toppers."
+  ],
+  "responses": [
+    "Merit scholarship is awarded to the  Top Three position holders of each Examination Board . Scholarship is also offered to  top three position holders in the NU admission merit list of each campus . Students awarded merit scholarship (100% tuition fee for 8 regular semesters) must maintain a CGPA of ≥ 3.00 in each semester."
+  ]
+},
+{
+  "tag": "spring_2025_registration_dates",
+  "patterns": [
+    "When can I sign up for Spring 2025 classes?",
+    "What are the dates for signing up for Spring 2025?",
+    "When does class registration open for next spring?",
+    "What's the schedule for registering for Spring 2025?",
+    "When can I enroll for the Spring 2025 semester?",
+    "When do I need to register for my Spring 2025 courses?",
+    "What's the time frame for Spring 2025 registration?",
+    "When is student enrollment for the upcoming Spring semester?",
+    "Can you tell me the Spring 2025 sign up dates?",
+    "When is course enrollment happening for Spring 2025?",
+    "What's the period to register for classes in Spring 2025?",
+    "When do registrations for Spring 2025 close?",
+    "Is there a specific window for Spring 2025 enrollment?",
+    "What are the key dates for Spring 2025 course sign up?",
+    "When can I officially register for the Spring semester?",
+    "What are the deadlines for Spring 2025 registration?",
+    "When does the registration portal open for Spring 2025?",
+    "Tell me the registration period for the next Spring semester.",
+    "When is the time to select courses for Spring 2025?",
+    "What's the full registration schedule for Spring 2025?"
+  ],
+  "responses": [
+    "Spring 2025 registration at FAST was from  January 16 to 18 (Tuesday to Saturday) ."
+  ]
+},
+{
+  "tag": "spring_2025_start_date",
+  "patterns": [
+    "When do Spring 2025 classes actually start?",
+    "What's the first day of class for Spring 2025?",
+    "When will the next Spring semester begin?",
+    "When are Spring 2025 classes kicking off?",
+    "What date do classes resume for Spring 2025?",
+    "When does the Spring 2025 session officially begin?",
+    "When does FAST start the Spring 2025 academic term?",
+    "Tell me when the first day of Spring 2025 classes is.",
+    "When will the new semester commence for Spring 2025?",
+    "What is the official start date for Spring 2025 at FAST?",
+    "When do students go back to class for Spring 2025?",
+    "What day marks the beginning of Spring 2025 semester?",
+    "When does the Spring 2025 academic year start?",
+    "When will lectures for Spring 2025 begin?",
+    "What's the opening date for Spring 2025 classes?",
+    "When does the Spring 2025 teaching period start?",
+    "Is there a fixed start date for Spring 2025?",
+    "When can I expect Spring 2025 classes to begin?",
+    "What's the commencement date for Spring 2025?",
+    "Tell me the specific start day for Spring 2025 classes."
+  ],
+  "responses": [
+    "Spring 2025 classes at FAST began on  January 20 (Monday) ."
+  ]
+},
+{
+  "tag": "fall_2025_registration_dates",
+  "patterns": [
+    "When is Fall 2025 registration at FAST?",
+    "What are the registration dates for Fall 2025 at FAST?",
+    "When does registration start for Fall 2025 semester?",
+    "What is the registration period for Fall 2025?",
+    "When do I register for the Fall 2025 semester?",
+    "What are the dates for Fall 2025 course registration?",
+    "When can I register for Fall 2025 at FAST?",
+    "When is course enrollment for Fall 2025 at FAST?",
+    "When does student registration happen for Fall 2025?",
+    "Can you tell me the registration schedule for Fall 2025?",
+    "When's the sign up period for the Fall 2025 term?",
+    "What are the enrollment dates for Fall 2025?",
+    "When does the registration window open for Fall 2025?",
+    "When do I need to sign up for my Fall 2025 classes?",
+    "Is there a specific timeframe for Fall 2025 registration?",
+    "What's the complete registration calendar for Fall 2025?",
+    "When do I get to pick my courses for Fall 2025?",
+    "What are the official registration dates for the next Fall semester?",
+    "When can current students register for Fall 2025?",
+    "Tell me the exact dates for Fall 2025 student registration."
+  ],
+  "responses": [
+    "Fall 2025 registration is from  August 11 to 15 (Monday to Friday) ."
+  ]
+},
+{
+  "tag": "fall_2025_start_date",
+  "patterns": [
+    "When do Fall 2025 classes begin?",
+    "What is the start date for Fall 2025 semester?",
+    "When will classes begin in Fall 2025?",
+    "When does the Fall 2025 term start at FAST?",
+    "When are classes starting in Fall 2025?",
+    "Can you tell me the date for Fall 2025 semester?",
+    "When is the first day of Fall 2025 classes?",
+    "What day do Fall 2025 classes commence?",
+    "When do FAST classes start for Fall 2025?",
+    "What’s the starting date for the new semester in 2025?",
+    "When does the academic year start for Fall 2025?",
+    "What's the official opening day for Fall 2025 classes?",
+    "When do students return for the Fall 2025 term?",
+    "Is there a specific date when Fall 2025 semester kicks off?",
+    "When is the initial class day for Fall 2025?",
+    "What's the start of lectures for Fall 2025?",
+    "When does the Fall 2025 session at FAST begin?",
+    "Tell me the exact day Fall 2025 classes resume.",
+    "What's the opening date for the upcoming Fall semester?",
+    "When does the Fall 2025 academic period commence?"
+  ],
+  "responses": [
+    "Fall 2025 classes begin on  August 18 (Monday) ."
+  ]
+},
+{
+  "tag": "admission_fee_info",
+  "patterns": [
+    "What is the admission fee?",
+    "How much is the admission fee at FAST?",
+    "What do I need to pay for admission?",
+    "Is there an admission fee at FAST?",
+    "Tell me about the admission charges.",
+    "What's the one time admission fee?",
+    "Do I have to pay an admission fee when joining FAST?",
+    "What is the fee payable at the time of admission?",
+    "Is the admission fee refundable?",
+    "Is admission fee required for graduate programs too?",
+    "How much is the initial fee to get into FAST?",
+    "What are the charges to enroll at FAST?",
+    "Is there a separate fee for new student admission?",
+    "What's the cost to apply and get accepted?",
+    "Do I pay an admission fee every year?",
+    "What's the non refundable admission charge?",
+    "Is the admission fee waived for any reason?",
+    "What amount is due for initial admission?",
+    "Tell me about the payment for starting at FAST.",
+    "Is there an enrollment fee for new students?"
+  ],
+  "responses": [
+    "Admission Fee of  Rs 30,000 (w.e.f Fall 2024 semester)  is payable once at the time of admission. If a graduate of this University is admitted to a higher degree program, then admission fee is not payable again."
+  ]
+},
+{
+  "tag": "security_deposit_info",
+  "patterns": [
+    "What is the security deposit?",
+    "Do I have to pay a security deposit at FAST?",
+    "How much is the security deposit for FAST?",
+    "Is the security deposit refundable?",
+    "What is the purpose of the security deposit?",
+    "Tell me about the FAST security deposit.",
+    "Is there a security fee during admission?",
+    "What amount is charged as a security deposit?",
+    "When do I need to pay the security deposit?",
+    "Is the Rs 20,000 security deposit mandatory?",
+    "What's the initial deposit required by FAST?",
+    "Do I get my security deposit back?",
+    "What is the policy on the security deposit?",
+    "Is the security deposit part of the tuition?",
+    "When is the security deposit due?",
+    "What is the purpose of the refundable deposit?",
+    "How can I get my security deposit refunded?",
+    "Is the security deposit a one time payment?",
+    "What are the terms for the security deposit?",
+    "Explain the security deposit charge at FAST."
+  ],
+  "responses": [
+    "A refundable security deposit of  Rs 20,000  is also payable at the time of admission."
+  ]
+},
+{
+  "tag": "fee_refund_policy",
+  "patterns": [
+    "What is the fee refund policy at FAST?",
+    "Can I get a refund after paying the fee at FAST?",
+    "How does the refund policy work at FAST?",
+    "What happens if I want to withdraw after paying my FAST fee?",
+    "Is there any fee refund option at FAST?",
+    "What are the rules for getting a refund from FAST?",
+    "Till when can I get a fee refund at FAST?",
+    "How much of my fee is refundable after classes start?",
+    "Can I get my money back if I drop out early?",
+    "Does FAST refund tuition fees?",
+    "What's the process for getting a fee refund?",
+    "Are there different refund percentages based on withdrawal date?",
+    "What if I leave the university, do I get my fees back?",
+    "Is the admission fee also refundable?",
+    "What are the deadlines for applying for a fee refund?",
+    "How is the refund amount calculated?",
+    "Does HEC refund policy apply to FAST?",
+    "What are the conditions for a full or partial refund?",
+    "Can I get a refund if I decide not to join after paying?",
+    "What's the official policy on returning fees?"
+  ],
+  "responses": [
+    "The fee refund policy is based on how many days have passed since the start of classes. Refunds decrease as time progresses, and no refund is given after the 30th day. For example, 100% refund is typically available up to the 7th day of classes, 50% up to the 15th day, and 25% up to the 30th day. After the 30th day, no tuition fee is refunded."
+  ]
+},
+{
+  "tag": "fee_payment_methods",
+  "patterns": [
+    "How can I pay my fees?",
+    "What are the ways to pay fees at FAST?",
+    "How do I pay my university dues at FAST?",
+    "Can I pay my fees online?",
+    "What payment options are available for FAST fee?",
+    "Where do I pay my FAST university fee?",
+    "Can I use a bank to pay my fee at FAST?",
+    "Is Kuickpay available for FAST fee payment?",
+    "How does fee submission work at FAST?",
+    "What’s the process to pay my tuition at FAST?",
+    "Are there any digital payment options for fees?",
+    "Can I pay using a mobile app?",
+    "Do they accept debit/credit cards for fees?",
+    "What's the procedure for online fee payment?",
+    "Do I need a challan for all payment methods?",
+    "Can I pay directly at the university?",
+    "What is the preferred method for fee payment?",
+    "Are there installment plans for fees?",
+    "What steps are involved in paying FAST fees?",
+    "Tell me about the payment system for tuition."
+  ],
+  "responses": [
+    "You can pay your fee by either visiting a Faysal Bank branch with your printed challan or using the Kuickpay payment gateway through online banking, mobile apps, or ATMs."
+  ]
+},
+{
+  "tag": "kuickpay_supported_banks",
+  "patterns": [
+    "Which banks support Kuickpay for FAST fee payment?",
+    "Where can I pay FAST fee using Kuickpay?",
+    "What banks are supported by Kuickpay for FAST?",
+    "Can I pay FAST fees through HBL or MCB via Kuickpay?",
+    "Is Meezan Bank supported for Kuickpay fee payment?",
+    "Which bank can I use to pay FAST fee using Kuickpay?",
+    "Does UBL work with Kuickpay for FAST?",
+    "Can I use Bank Alfalah to pay FAST fee through Kuickpay?",
+    "List banks that support Kuickpay for FAST university fees.",
+    "What are the payment partner banks for Kuickpay?",
+    "Which financial institutions accept Kuickpay for FAST fees?",
+    "Are all major banks compatible with Kuickpay for FAST?",
+    "Can I use my bank's mobile app for Kuickpay to FAST?",
+    "Which banks are linked with Kuickpay for FAST payments?",
+    "Is my bank on the list for Kuickpay fee payment?",
+    "Are there specific banks I should use for Kuickpay and FAST?",
+    "Tell me all the banks that work with Kuickpay for FAST fees.",
+    "Are there any banks that don't support Kuickpay for FAST?",
+    "Which banks offer online payment through Kuickpay for FAST?",
+    "What are the official Kuickpay partner banks for FAST University?"
+  ],
+  "responses": [
+    "The Kuickpay service is supported by Allied Bank, Askari Bank, Bank Al Habib, Bank Alfalah, Bank Islami, Bank of Punjab, Dubai Islamic Bank, Faysal Bank, First Women Bank, Habib Metro Bank, HBL, JS Bank, MCB, MCB Islamic Bank, Meezan Bank, National Bank, NRSP Bank, SAMBA Bank, Soneri Bank, Summit Bank, UBL, and Keenu App."
+  ]
+},
+{
+  "tag": "fee_payment_easypaisa_jazzcash",
+  "patterns": [
+    "Can I use EasyPaisa or JazzCash to pay my FAST fee?",
+    "Is it possible to pay FAST fee using JazzCash or EasyPaisa?",
+    "Can I use mobile wallets like JazzCash to pay at FAST?",
+    "Does FAST accept EasyPaisa for fee payments?",
+    "Is Kuickpay supported for paying FAST fees?",
+    "How do I pay my FAST fee using JazzCash?",
+    "Can I pay my university dues through EasyPaisa?",
+    "Can I use a mobile payment app to pay FAST fee?",
+    "Is it okay to pay FAST fees via JazzCash or EasyPaisa?",
+    "Are EasyPaisa and JazzCash allowed for FAST fee payments?",
+    "Do they accept mobile money for FAST fees?",
+    "Can I transfer fee amount using JazzCash?",
+    "Is EasyPaisa an option for FAST tuition?",
+    "How to pay FAST fees using a mobile wallet?",
+    "Are digital payment apps accepted for FAST fees?",
+    "What are the mobile payment solutions for FAST fees?",
+    "Can I pay through my phone using JazzCash or EasyPaisa?",
+    "Is there a convenience fee for using mobile wallets for FAST?",
+    "Does FAST have a payment option for EasyPaisa or JazzCash?",
+    "Tell me about mobile wallet payment for FAST fees."
+  ],
+  "responses": [
+    "Yes, you can pay via EasyPaisa or JazzCash using the Kuickpay service. Please note that transaction limits may apply."
+  ]
+},
+{
+  "tag": "admission_application_window_2025",
+  "patterns": [
+    "When can I submit my admission application for FAST in 2025?",
+    "What are the dates for submitting FAST admission forms in 2025?",
+    "When does FAST start accepting applications for 2025?",
+    "From which date can I apply to FAST in 2025?",
+    "When is the application period for FAST admissions?",
+    "What is the last date to submit admission forms for FAST?",
+    "When can I apply to FAST for the 2025 intake?",
+    "When will the admission portal open for FAST 2025?",
+    "What is the admission application timeline for FAST?",
+    "When are applications accepted for FAST admissions in 2025?",
+    "What are the opening and closing dates for 2025 applications?",
+    "When does the application period for the upcoming academic year begin and end?",
+    "What's the schedule for submitting admission forms for 2025?",
+    "When is the deadline to apply for FAST in 2025?",
+    "How long is the application window open for FAST 2025?",
+    "When can prospective students apply to FAST for 2025?",
+    "What are the key dates for 2025 admission applications?",
+    "Is the application window for 2025 open now?",
+    "Tell me the full application submission period for FAST 2025.",
+    "What's the exact duration for applying to FAST in 2025?"
+  ],
+  "responses": [
+    "Admission applications can be submitted from May 19 (Monday) to July 4 (Friday), 2025 for both undergraduate and graduate/postgraduate programs."
+  ]
+},
+{
+  "tag": "admission_test_dates_2025",
+  "patterns": [
+    "When are the admission tests for FAST in 2025?",
+    "What are the test dates for FAST admissions 2025?",
+    "When will FAST conduct its entry tests in 2025?",
+    "What is the schedule for FAST admission tests 2025?",
+    "When do the FAST admission exams take place?",
+    "Can you tell me the dates for the 2025 FAST test?",
+    "When will admission testing start at FAST this year?",
+    "On what dates are FAST entry tests being held in 2025?",
+    "When are the university tests happening at FAST?",
+    "What is the admission test timeline for FAST 2025?",
+    "When are the entrance exams for FAST in 2025?",
+    "What's the calendar for the FAST admissions test?",
+    "When are the aptitude tests for FAST 2025?",
+    "What are the specific dates for FAST's entrance examination?",
+    "When can I take the FAST admission test for 2025?",
+    "Are there multiple dates for the FAST entry test in 2025?",
+    "What's the testing schedule for FAST admissions?",
+    "When will the 2025 FAST entry exams be conducted?",
+    "Tell me the full schedule of admission tests for FAST 2025.",
+    "What's the official testing period for FAST 2025 admissions?"
+  ],
+  "responses": [
+    "Admission tests for all programs will be conducted from July 7 (Monday) to July 18 (Friday), 2025."
+  ]
+},
+{
+  "tag": "merit_list_announcement_2025",
+  "patterns": [
+    "When will the merit list be announced for FAST admissions in 2025?",
+    "What is the date for FAST 2025 merit list announcement?",
+    "When will the results be released for FAST admission 2025?",
+    "When is the merit list coming out for FAST?",
+    "When can I see the merit list for FAST 2025 admissions?",
+    "What day is the FAST merit list being published?",
+    "When will I know if I made it into FAST in 2025?",
+    "When is the list of selected candidates announced at FAST?",
+    "When will test qualified students be notified at FAST?",
+    "On what date is the FAST 2025 merit list announced?",
+    "When will the final list of admitted students be shared?",
+    "What's the publication date for the 2025 FAST merit list?",
+    "When can I check my admission status for 2025?",
+    "When are the FAST admission results going to be available?",
+    "What's the expected release date for the merit list?",
+    "When will FAST inform selected applicants for 2025?",
+    "Is there a specific day for the 2025 merit list to be out?",
+    "When will the official admission list for 2025 be finalized?",
+    "What's the schedule for the 2025 admission outcome?",
+    "Tell me the exact date for the FAST 2025 merit list announcement."
+  ],
+  "responses": [
+    "The merit list of selected and test qualified candidates will be announced on July 23 (Wednesday), 2025."
+  ]
+},
+{
+  "tag": "graduate_interview_date_2025",
+  "patterns": [
+    "When are the interviews for FAST graduate program admissions in 2025?",
+    "What is the date of graduate program interviews at FAST in 2025?",
+    "When will the FAST MS interviews take place in 2025?",
+    "When are graduate admission interviews scheduled at FAST?",
+    "What day is the interview for FAST postgraduate admissions?",
+    "When are the interviews for FAST master's program in 2025?",
+    "Can you tell me the date of graduate interviews at FAST?",
+    "What’s the interview date for graduate admissions at FAST?",
+    "Are graduate interviews at FAST in July 2025?",
+    "When do interviews for MS/PhD programs happen at FAST?",
+    "When are the interviews for higher degree programs at FAST?",
+    "What's the schedule for graduate admissions interviews?",
+    "When will FAST conduct interviews for MS applicants in 2025?",
+    "Is there a specific date for postgraduate interviews at FAST?",
+    "What are the interview dates for PhD candidates at FAST?",
+    "When should I expect my graduate interview for FAST 2025?",
+    "What's the precise date for graduate program interviews?",
+    "When are the interviews for advanced degree admissions?",
+    "Tell me when the FAST graduate interviews are set for 2025.",
+    "Are there interviews for all graduate programs on the same day?"
+  ],
+  "responses": [
+    "Interviews for graduate programs will be held on July 25 (Friday), 2025."
+  ]
+},
+{
+  "tag": "admission_formalities_dates",
+  "patterns": [
+    "What are the dates for completing admission formalities at FAST?",
+    "When do I need to complete the admission process at FAST?",
+    "What is the deadline for admission formalities at FAST?",
+    "By when should I finish the admission steps at FAST?",
+    "When do admission formalities start and end at FAST?",
+    "What are the important dates for FAST admission formalities?",
+    "When should I submit all documents for admission at FAST?",
+    "What is the last date to complete admission requirements?",
+    "What’s the timeframe for completing the admission process?",
+    "When must all admission formalities be completed at FAST?",
+    "What are the final dates for admission paperwork at FAST?",
+    "When do I need to finalize my admission at FAST?",
+    "Is there a specific period for completing enrollment formalities?",
+    "When's the cut off for finishing the admission procedure?",
+    "What's the window for completing post selection formalities?",
+    "When are the final admission steps due at FAST?",
+    "What are the dates to secure my admission at FAST?",
+    "When should all necessary admission tasks be done?",
+    "Tell me the start and end dates for admission completion.",
+    "What is the last day for admission confirmation at FAST?"
+  ],
+  "responses": [
+    "Admission formalities for all programs must be completed between July 25 (Friday) and August 12 (Tuesday), 2025."
+  ]
+},
+{
+  "tag": "fall_2025_classes_start_date",
+  "patterns": [
+    "When do classes start at FAST for the Fall 2025 semester?",
+    "What is the starting date for Fall 2025 classes at FAST?",
+    "When will the Fall 2025 semester begin at FAST?",
+    "When does FAST start classes in Fall 2025?",
+    "What day do classes begin for Fall 2025 at FAST?",
+    "Can you tell me when Fall 2025 classes start at FAST?",
+    "What's the first day of classes for Fall 2025 at FAST?",
+    "When is the beginning of the Fall 2025 semester at FAST?",
+    "Do classes for Fall 2025 at FAST start in August?",
+    "On which date do the Fall 2025 classes commence at FAST?",
+    "When does the Fall 2025 academic session kick off?",
+    "What's the official start of the Fall 2025 term?",
+    "When will students begin attending classes for Fall 2025?",
+    "Is there a specific opening date for Fall 2025 courses?",
+    "When are the first lectures for the Fall 2025 semester?",
+    "What date does the Fall 2025 academic year start?",
+    "When is the initial class day for Fall 2025 at FAST?",
+    "Tell me the precise start day for Fall 2025 classes.",
+    "What's the commencement date for the Fall 2025 intake?",
+    "When do the new Fall 2025 classes officially begin?"
+  ],
+  "responses": [
+    "Classes for all programs at FAST will commence on August 18 (Monday), 2025."
+  ]
+},
+{
+  "tag": "accepted_admission_tests_engineering",
+  "patterns": [
+    "What admission tests are accepted for engineering programs at FAST?",
+    "Which tests are valid for engineering admissions at FAST?",
+    "Can I apply for engineering at FAST with an SAT score?",
+    "Is the NTS NAT IE accepted for engineering?",
+    "Do I need to take the FAST entry test for engineering?",
+    "Are SAT or NAT scores accepted for engineering admission?",
+    "What exams are allowed for engineering admissions?",
+    "Does FAST accept NTS from other institutions for engineering?",
+    "What test options do I have for applying to engineering?",
+    "Can I use NAT IE for FAST's engineering programs?",
+    "What standardized tests does FAST consider for engineering?",
+    "Which entrance exams are recognized for engineering degrees?",
+    "Can I submit a different test score for engineering at FAST?",
+    "What are the alternative tests for engineering admissions?",
+    "Does FAST have specific test requirements for engineering?",
+    "Which aptitude tests are applicable for engineering entry?",
+    "Are all NTS NAT scores accepted for engineering programs?",
+    "What are the testing alternatives for engineering applicants?",
+    "Tell me which exams are approved for FAST engineering admissions.",
+    "Can I use my GRE score for engineering admission?"
+  ],
+  "responses": [
+    "Applicants must choose one of the following: FAST NUCES test, SAT, or NTS NAT IE. NTS tests from specific universities are not accepted."
+  ]
+},
+{
+  "tag": "engineering_selection_criteria_updated",
+  "patterns": [
+    "What is the updated selection criteria for engineering programs at FAST?",
+    "How has the selection criteria for engineering changed?",
+    "What are the new weightages for engineering admissions?",
+    "What’s the revised merit formula for engineering?",
+    "What is the latest admission criteria for engineering?",
+    "Has the merit policy for engineering been updated?",
+    "What is the updated merit calculation for engineering at FAST?",
+    "What’s the current selection breakdown for engineering programs?",
+    "How is admission merit now calculated for engineering?",
+    "Can you tell me the new selection criteria for engineering?",
+    "What are the revised components for engineering admission?",
+    "How does FAST now evaluate engineering applicants?",
+    "What are the current percentages for admission in engineering?",
+    "Is there a new grading system for engineering admissions?",
+    "What factors are now considered for engineering merit?",
+    "How is the aggregate score for engineering determined?",
+    "What's the most recent admission criteria for engineering students?",
+    "Have the admission requirements for engineering been modified?",
+    "Tell me about the new selection process for engineering.",
+    "What are the current weightages for academic records in engineering admission?"
+  ],
+  "responses": [
+    "The selection criteria are: 33% weightage to the admission test, 50% to HSSC or equivalent, and 17% to SSC or equivalent marks."
+  ]
+},
+{
+  "tag": "engineering_merit_hssc",
+  "patterns": [
+    "How is the HSSC score calculated for engineering admissions?",
+    "What is the HSSC weightage for engineering merit?",
+    "How are intermediate marks counted in engineering merit?",
+    "How do they calculate HSSC scores for engineering programs?",
+    "Are both HSSC parts considered for engineering merit?",
+    "Does FAST use Part I and II for HSSC calculation?",
+    "Can I apply with only HSSC Part I marks for engineering?",
+    "What if my HSSC Part II result isn't available yet?",
+    "How are A level marks used for engineering admissions?",
+    "What HSSC marks are needed for engineering selection?",
+    "How does the intermediate result impact engineering admission?",
+    "Is HSSC Part 1 enough for initial engineering merit calculation?",
+    "What is the policy for HSSC marks for engineering programs?",
+    "How are A levels converted for engineering merit?",
+    "What's the weightage of HSSC in the engineering aggregate?",
+    "Do they consider full HSSC marks or just Part 1?",
+    "What are the rules for HSSC score inclusion in engineering merit?",
+    "How do they factor in HSSC results for engineering admissions?",
+    "Tell me about the HSSC mark consideration for engineering.",
+    "What's the procedure for HSSC mark evaluation for engineering?"
+  ],
+  "responses": [
+    "HSSC marks are calculated using the available result at the time of merit compilation: either Part I + II, only Part I if Part II is unavailable, or marks from IBCC equivalence certificates for A levels/O levels."
+  ]
+},
+{
+  "tag": "engineering_merit_cutoff_authority",
+  "patterns": [
+    "Who decides the final merit cut off for engineering programs?",
+    "Who sets the merit cut off for engineering at FAST?",
+    "Who determines the final admission merit for engineering?",
+    "How is the engineering merit cut off decided?",
+    "Who is responsible for deciding engineering merit criteria?",
+    "Does FAST set its own merit cut off for engineering?",
+    "Who finalizes the merit threshold for engineering programs?",
+    "Is the merit cut off decided by the university?",
+    "Who controls the merit list for engineering admissions?",
+    "Who calculates the final merit for engineering students?",
+    "What entity determines the minimum merit for engineering?",
+    "Is the merit cut off for engineering centralized or campus specific?",
+    "How is the engineering merit closing percentage established?",
+    "Who has the authority to set engineering admission cut offs?",
+    "Is the cut off for engineering merit dynamic?",
+    "Who is in charge of setting the engineering admission standards?",
+    "What is the process for setting the engineering merit cut off?",
+    "Is the merit cut off for engineering pre determined?",
+    "Who announces the final merit cut off for engineering programs?",
+    "What body makes the decision on engineering merit cut off?"
+  ],
+  "responses": [
+    "The final merit cut off is determined by the university."
+  ]
+},
+{
+  "tag": "admission_document_verification",
+  "patterns": [
+    "Will my documents be verified during admission?",
+    "Do I need to submit original documents for admission?",
+    "Is document verification required at the time of admission?",
+    "Will FAST verify my documents during the process?",
+    "Do they check documents when applying?",
+    "Is there a document verification step in admission?",
+    "Are my certificates verified before confirming admission?",
+    "What about document verification?",
+    "Are original transcripts needed for admission?",
+    "What documents are checked during admission?",
+    "What is the document verification procedure at FAST?",
+    "Will my academic records be cross checked?",
+    "Do I need to bring attested copies for verification?",
+    "What happens if my documents are not verified?",
+    "Is there a penalty for incorrect information on documents?",
+    "How thoroughly are documents verified by FAST?",
+    "What is the policy on false information in admission documents?",
+    "When does document verification usually occur?",
+    "Are all submitted documents subject to verification?",
+    "What kind of verification process does FAST employ for admissions?"
+  ],
+  "responses": [
+    "Yes, all documents will be verified at the time of admission. False or incorrect information will lead to disqualification."
+  ]
+},
+{
+  "tag": "computing_programs_offered",
+  "patterns": [
+    "What programs are offered under computing at FAST?",
+    "Which computing degrees are available at FAST?",
+    "What CS programs does FAST offer?",
+    "What are the available computing programs at FAST?",
+    "Does FAST offer BS in AI or Cyber Security?",
+    "What courses are offered in the computing department at FAST?",
+    "What options are there for computer science studies at FAST?",
+    "Tell me the computing fields offered by FAST.",
+    "Is Data Science available at FAST?",
+    "What kind of computing degrees can I apply for at FAST?",
+    "What are the undergraduate computing degrees at FAST?",
+    "Do they have a software engineering program?",
+    "Are there any specializations in computing at FAST?",
+    "What are the different computer related programs offered?",
+    "Can I study artificial intelligence at FAST?",
+    "Is there a cyber security degree at FAST?",
+    "What are the Bachelor of Science programs in computing?",
+    "List the computing disciplines available for study.",
+    "What are the various computing majors at FAST?",
+    "Does FAST have a dedicated program for data science?"
+  ],
+  "responses": [
+    "FAST offers  BS in Artificial Intelligence, Computer Science, Cyber Security, Data Science, and Software Engineering ."
+  ]
+},
+{
+  "tag": "accepted_admission_tests_computing",
+  "patterns": [
+    "What admission tests are accepted for computing programs at FAST?",
+    "Which tests can I take to apply for CS at FAST?",
+    "Are SAT scores accepted for computing programs?",
+    "Does FAST accept NTS for software engineering?",
+    "What tests are valid for admission into CS?",
+    "Can I apply for computing with NAT IE or NAT ICS?",
+    "Is the FAST entry test required for CS?",
+    "What entrance exams are accepted for computing programs?",
+    "Does FAST accept NTS from other universities for CS?",
+    "What are the testing options for computer science admission?",
+    "Which standardized tests are recognized for computing admissions?",
+    "Can I use my NTS score for BS Computer Science?",
+    "What are the alternatives to the FAST entry test for computing?",
+    "Are there specific NTS tests required for computing programs?",
+    "Do I need to take a separate test for different computing specializations?",
+    "What types of aptitude tests are accepted for computing at FAST?",
+    "Is the SAT a valid option for all computing programs?",
+    "Which NTS categories are relevant for computing admissions?",
+    "Tell me about the accepted tests for computing degrees.",
+    "Can I use an NTS score from a different university for computing?"
+  ],
+  "responses": [
+    "Applicants must choose one of:  FAST NUCES test, SAT, or NTS NAT IE/NAT ICS . NTS tests from specific universities are not accepted."
+  ]
+},
+{
+  "tag": "computing_program_eligibility",
+  "patterns": [
+    "What is the eligibility for computing programs at FAST?",
+    "Who can apply for computer science at FAST?",
+    "What are the requirements for computing programs?",
+    "Am I eligible for CS or SE at FAST?",
+    "What qualifications do I need for computing admission?",
+    "What are the academic criteria for CS at FAST?",
+    "Do I need Mathematics for computing at FAST?",
+    "What is the minimum percentage needed for CS admission?",
+    "Can I apply to software engineering with 50% in HSSC?",
+    "What’s the eligibility criteria for computing programs?",
+    "What are the minimum marks for computer science at FAST?",
+    "Do I need a specific academic background for computing?",
+    "What subjects are required in HSSC for computing degrees?",
+    "Is there a minimum percentage for matriculation for computing?",
+    "What are the general admission requirements for computing programs?",
+    "Can someone with any intermediate background apply for computing?",
+    "What are the prerequisites for bachelor's in computing?",
+    "Tell me the academic eligibility for BS in Computing.",
+    "What are the HSSC requirements for computer science and related fields?",
+    "Is a strong math background essential for computing eligibility?"
+  ],
+  "responses": [
+    "Applicants must have at least  60% marks in SSC  and  50% in HSSC or equivalent, with Mathematics studied at HSSC level ."
+  ]
+},
+{
+  "tag": "computing_selection_criteria",
+  "patterns": [
+    "What is the selection criteria for computing programs?",
+    "How is merit calculated for computer science at FAST?",
+    "What are the weightages for computing program admission?",
+    "How do you select students for CS or SE programs?",
+    "What counts toward computing program admission?",
+    "How much weight does the entry test have for CS?",
+    "What percentage of HSSC marks is used for computing merit?",
+    "What is the admission formula for computing degrees?",
+    "How is eligibility determined for computing programs?",
+    "What is the breakdown of marks for computing admission?",
+    "What's the merit calculation method for computing at FAST?",
+    "How are different academic components weighted for CS admission?",
+    "What are the percentages for the admission test, HSSC, and SSC?",
+    "How is the final merit score for computing programs derived?",
+    "What's the formula for aggregate score in computing?",
+    "Are all computing programs using the same selection criteria?",
+    "How important is the admission test for computing programs?",
+    "What is the impact of HSSC and SSC marks on computing merit?",
+    "Tell me the detailed selection criteria for FAST computing degrees.",
+    "What are the factors considered in computing admissions?"
+  ],
+  "responses": [
+    " 50% weightage  is given to the admission test,  40% to HSSC/equivalent marks , and  10% to SSC/equivalent ."
+  ]
+},
+{
+  "tag": "computing_eligibility_pre_medical",
+  "patterns": [
+    "Can pre medical students apply for computing programs?",
+    "Are pre medical students eligible for CS at FAST?",
+    "Can I apply to computer science if I had pre medical?",
+    "Is additional math required for pre medical students to apply for computing?",
+    "Am I eligible for computing with a pre med background?",
+    "Can someone with pre medical apply for software engineering?",
+    "Can I do CS after pre medical?",
+    "Are pre medical students allowed to take computing programs at FAST?",
+    "Can pre med students go into IT or CS?",
+    "What are the requirements for pre medical students to join computing?",
+    "Do pre medical students need to take a supplementary math course?",
+    "What's the pathway for pre med students into computing at FAST?",
+    "Is a pre medical background a barrier to computing admissions?",
+    "What are the conditions for pre med students to enter computing programs?",
+    "Can pre medical students switch to computer science?",
+    "Are there any special considerations for pre medical applicants to computing?",
+    "Does FAST offer bridging courses for pre medical students for computing?",
+    "How can a pre med student meet the math requirement for computing?",
+    "Is additional math mandatory for pre medical students in computing?",
+    "Tell me about pre medical student eligibility for computing programs."
+  ],
+  "responses": [
+    "Yes, if they have passed additional Mathematics or are awaiting results, they are eligible for computing programs."
+  ]
+},
+{
+  "tag": "computing_merit_hssc",
+  "patterns": [
+    "How is HSSC performance evaluated for merit in computing?",
+    "How are HSSC marks calculated for CS program admission?",
+    "What’s the HSSC merit criteria for computing programs?",
+    "Is HSSC Part II required for computing merit?",
+    "How do HSSC scores affect selection in computing programs?",
+    "Do both HSSC parts matter for computer science admissions?",
+    "How are A/O Level grades used for computing merit?",
+    "Can I apply with just HSSC Part I marks for CS?",
+    "What’s the role of intermediate marks in computing admission?",
+    "How is my high school performance considered for computing programs?",
+    "What is the HSSC weightage for computing merit?",
+    "How are intermediate marks counted in computing merit?",
+    "How do they calculate HSSC scores for computing programs?",
+    "Does FAST use Part I and II for HSSC calculation for computing?",
+    "What if my HSSC Part II result isn't available yet for computing?",
+    "How are A level marks used for computing admissions?",
+    "What HSSC marks are needed for computing selection?",
+    "How does the intermediate result impact computing admission?",
+    "Is HSSC Part 1 enough for initial computing merit calculation?",
+    "What is the policy for HSSC marks for computing programs?"
+  ],
+  "responses": [
+    "HSSC marks are calculated based on: 1) HSSC Part I + II, 2) Only Part I if Part II is unavailable, or 3) IBCC equivalence certificate for A/O Levels."
+  ]
+},
+{
+  "tag": "business_degrees_offered",
+  "patterns": [
+    "What business degrees does FAST offer?",
+    "Which business programs are available at FAST?",
+    "What are the business degree options at FAST?",
+    "Does FAST offer BBA or any business programs?",
+    "Tell me about the business degrees offered by FAST.",
+    "What kind of business studies can I pursue at FAST?",
+    "What business and finance degrees are available at FAST?",
+    "Are there any business analytics programs at FAST?",
+    "Is BS Accounting and Finance offered at FAST?",
+    "List all business degrees offered by FAST.",
+    "What undergraduate business programs are at FAST?",
+    "Do they have a Bachelor of Business Administration?",
+    "Can I study Financial Technology at FAST?",
+    "What are the specializations in business at FAST?",
+    "Is there a program for Accounting and Finance?",
+    "What are the various business majors at FAST?",
+    "What are the available degrees in the Faculty of Business Administration?",
+    "Does FAST offer a BS in Business Analytics?",
+    "What are the options for business studies?",
+    "Can I get a degree in FinTech from FAST?"
+  ],
+  "responses": [
+    "FAST offers BBA, BS in Accounting and Finance, BS Business Analytics, and BS Financial Technology."
+  ]
+},
+{
+  "tag": "accepted_admission_tests_business",
+  "patterns": [
+    "What admission tests are accepted for BBA/BS business programs?",
+    "Which tests are valid for business program admissions?",
+    "Can I apply with an SAT score for the business program?",
+    "Is NTS accepted for BBA at FAST?",
+    "What test do I need to take for BS Business admission?",
+    "Does FAST accept NAT for business programs?",
+    "Are SAT or NAT scores valid for business admission?",
+    "Which entry tests are allowed for BBA at FAST?",
+    "Can I use my NTS test from another university for FAST business program?",
+    "What are the testing options for getting into the business program?",
+    "What standardized tests are recognized for business admissions?",
+    "Can I use my NTS NAT score for BBA?",
+    "What are the alternatives to the FAST entry test for business?",
+    "Are there specific NTS tests required for business programs?",
+    "Do I need to take a separate test for different business specializations?",
+    "What types of aptitude tests are accepted for business at FAST?",
+    "Is the SAT a valid option for all business programs?",
+    "Which NTS categories are relevant for business admissions?",
+    "Tell me about the accepted tests for business degrees.",
+    "Can I use an NTS score from a different university for business?"
+  ],
+  "responses": [
+    "Applicants must choose one of: FAST NUCES, SAT, or NTS NAT IE, NAT ICS, NAT ICOM, NAT IGS. NTS tests from specific universities are not accepted."
+  ]
+},
+{
+  "tag": "business_program_eligibility",
+  "patterns": [
+    "What is the eligibility for business programs at FAST?",
+    "Who can apply for the business program?",
+    "What are the eligibility criteria for business studies?",
+    "Am I eligible for the business program at FAST?",
+    "What academic requirements are there for business admissions?",
+    "What marks do I need for business at FAST?",
+    "Is 50% enough to apply for the business program?",
+    "What is the minimum score for business program eligibility?",
+    "What qualifications are needed for business studies?",
+    "Can I get into the business program with 55%?",
+    "What are the minimum marks for BBA at FAST?",
+    "Do I need a specific academic background for business?",
+    "What subjects are required in HSSC for business degrees?",
+    "Is there a minimum percentage for matriculation for business?",
+    "What are the general admission requirements for business programs?",
+    "Can someone with any intermediate background apply for business?",
+    "What are the prerequisites for bachelor's in business?",
+    "Tell me the academic eligibility for BS in Business.",
+    "What are the HSSC requirements for business and related fields?",
+    "Is a strong academic record essential for business eligibility?"
+  ],
+  "responses": [
+    "Applicants must have at least 60% marks in SSC and 50% marks in HSSC or equivalent."
+  ]
+},
+{
+  "tag": "business_selection_criteria",
+  "patterns": [
+    "What is the selection criteria for business programs?",
+    "How is the merit calculated for business programs?",
+    "What are the weightages for business program selection?",
+    "How do you evaluate candidates for business admission?",
+    "What counts towards admission in the business department?",
+    "Can you explain the selection process for business studies?",
+    "How much weight does the entry test carry for business?",
+    "What percentage is based on HSSC for business program admission?",
+    "How is the admission decision made for business applicants?",
+    "What factors affect merit for the business program?",
+    "What's the merit calculation method for business at FAST?",
+    "How are different academic components weighted for business admission?",
+    "What are the percentages for the admission test, HSSC, and SSC for business?",
+    "How is the final merit score for business programs derived?",
+    "What's the formula for aggregate score in business?",
+    "Are all business programs using the same selection criteria?",
+    "How important is the admission test for business programs?",
+    "What is the impact of HSSC and SSC marks on business merit?",
+    "Tell me the detailed selection criteria for FAST business degrees.",
+    "What are the factors considered in business admissions?"
+  ],
+  "responses": [
+    "Admission test contributes 50%, HSSC marks 40%, and SSC marks 10% toward selection."
+  ]
+},
+{
+  "tag": "is_mathematics_required_for_business_program_eligibility",
+  "patterns": [
+    "Is Mathematics required for business program eligibility?",
+    "Do I need Math for applying to the business program?",
+    "Is Math a compulsory subject for business admission?",
+    "Can I apply to the business program without Mathematics?",
+    "Is it necessary to have studied Math in HSSC for business?",
+    "Do business students need Mathematics in high school?",
+    "Is Math mandatory for eligibility in business programs?",
+    "Can I get into the business program without taking Math?",
+    "Is Mathematics part of the eligibility criteria for business?",
+    "Will I be eligible for business studies if I didn’t take Math?",
+    "Is a math background required for BBA at FAST?",
+    "Do I need to have studied math in intermediate for business degrees?",
+    "Can I apply to business programs with a non math background?",
+    "Is there a math prerequisite for business studies?",
+    "Is mathematics a core requirement for business admissions?",
+    "What are the math requirements for business programs?",
+    "Do I need to pass a math test for business eligibility?",
+    "Is it possible to pursue business without HSSC Mathematics?",
+    "Does FAST require math for all business related programs?",
+    "Is a math subject mandatory for business program entry?"
+  ],
+  "responses": [
+    "No, Mathematics is not a required subject at the HSSC level for business programs."
+  ]
+},
+{
+  "tag": "how_are_hssc_marks_calculated_for_business_program_merit",
+  "patterns": [
+    "How are HSSC marks calculated for business program merit?",
+    "What is the merit calculation method for the business program?",
+    "How is the merit determined using HSSC marks?",
+    "Do both HSSC Part I and II count for business program merit?",
+    "Is only HSSC Part I considered for business admissions?",
+    "How are intermediate marks used for the business merit list?",
+    "What HSSC marks are used for business program selection?",
+    "Does the university consider A Level equivalence for business program merit?",
+    "How are A/O Level marks calculated for the business program?",
+    "What’s the criteria for calculating merit from HSSC for business?",
+    "How do HSSC scores affect business program selection?",
+    "What's the weightage of HSSC in the business aggregate?",
+    "Is HSSC Part 1 enough for initial business merit calculation?",
+    "What is the policy for HSSC marks for business programs?",
+    "How are A levels converted for business merit?",
+    "Do they consider full HSSC marks or just Part 1 for business?",
+    "What are the rules for HSSC score inclusion in business merit?",
+    "How do they factor in HSSC results for business admissions?",
+    "Tell me about the HSSC mark consideration for business.",
+    "What's the procedure for HSSC mark evaluation for business?"
+  ],
+  "responses": [
+    "The merit is calculated based on: HSSC Part I and II (if available), only Part I (if Part II is not available), or IBCC equivalence certificate scores for A/O Levels."
+  ]
+},
+{
+  "tag": "how_will_i_know_i_have_been_selected",
+  "patterns": [
+    "How will I know I have been selected",
+    "How do I find out if I got selected?",
+    "Will I get a message if I am selected?",
+    "How are selected candidates notified?",
+    "Where can I check my selection status?",
+    "Will I receive an email if I'm accepted?",
+    "How do I know if I got in?",
+    "Will the university inform me if I’m chosen?",
+    "Do selected students get a confirmation?",
+    "How will I be notified about my selection?",
+    "What's the process for admission notification?",
+    "How do I check my admission result?",
+    "Will they send an SMS for admission acceptance?",
+    "Is there an official notification channel for selected students?",
+    "How does FAST inform admitted candidates?",
+    "What should I look for to confirm my admission?",
+    "Where can I find my admission status online?",
+    "Will I receive an acceptance letter?",
+    "How will the university communicate my selection?",
+    "What's the procedure for confirming my successful admission?"
+  ],
+  "responses": [
+    "The selected candidates are informed through SMS on their cell phones and also via email. The candidates should check the status of their admission from the University website: admissions.nu.edu.pk or www.nu.edu.pk."
+  ]
+}
+  ]
+}

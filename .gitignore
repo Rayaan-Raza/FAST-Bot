@@ -1,0 +1,45 @@
+# Ignore virtual environments
+venv/
+.env/
+fast_bot_env/
+# Common virtual env names
+venv/
+env/
+.fast_bot_env/
+fast_bot_env/
+# Ignore virtual environments
+venv/
+fast_bot_env/
+
+
+# Ignore OS files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore model checkpoints and huge files (unless tracked via Git LFS)
+*.ckpt
+*.pth
+*.pt
+*.h5
+
+# VS Code settings (optional)
+.vscode/
+
+venv/
+fast_bot_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+
+venv/
+
+venv/
+fast_bot_env/
+.env/
+env/
+
